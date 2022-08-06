@@ -1,0 +1,32 @@
+#filters{
+    display: flex;
+    gap: 10px
+}
+
+#filters div{
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#gallery .active{
+    width: 30%;
+    padding: 5px;
+    transition: width .3s;
+}
+
+#gallery .inactive{
+    width: 0;
+    padding: 0;
+    transition: width .3s;
+}
