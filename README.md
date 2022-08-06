@@ -1,2 +1,2 @@
 # Gallery-filters-CSS-JS-
-Gallery filters done with CSSand JS
+Gallery filters done with CSS and JS
